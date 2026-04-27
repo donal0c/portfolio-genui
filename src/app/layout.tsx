@@ -1,19 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-
-const geistSans = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-geist-mono",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://donalocallaghan.com"),
@@ -22,12 +9,11 @@ export const metadata: Metadata = {
     template: "%s · Donal O'Callaghan",
   },
   description:
-    "AI Engineer. Builder. Shipping things that matter. Based in Ireland — building with Claude Code, Codex, and agent frameworks.",
+    "AI Engineer. Builder. Ireland. Based in Ireland and available for interesting work.",
   keywords: [
     "Donal O'Callaghan",
     "AI Engineer",
     "Ireland",
-    "Claude Code",
     "Agent Engineering",
     "TypeScript",
     "Next.js",
@@ -39,15 +25,13 @@ export const metadata: Metadata = {
     locale: "en_IE",
     url: "https://donalocallaghan.com",
     title: "Donal O'Callaghan — AI Engineer",
-    description:
-      "AI Engineer. Builder. Shipping things that matter. Based in Ireland.",
+    description: "AI Engineer. Builder. Ireland.",
     siteName: "Donal O'Callaghan",
   },
   twitter: {
     card: "summary_large_image",
     title: "Donal O'Callaghan — AI Engineer",
-    description:
-      "AI Engineer. Builder. Shipping things that matter. Based in Ireland.",
+    description: "AI Engineer. Builder. Ireland.",
     creator: "@donalocallaghan",
   },
   robots: {
@@ -73,7 +57,6 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable}`}
       suppressHydrationWarning
     >
       <head>

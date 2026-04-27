@@ -5,8 +5,7 @@ import { ThemeToggle } from "./theme-toggle";
 
 const links = [
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#stack", label: "Stack" },
+  { href: "#projects", label: "Work" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -37,8 +36,8 @@ export function Nav() {
             className="inline-block h-2 w-2 rounded-full bg-[var(--accent)] shadow-[0_0_12px_var(--accent)] animate-pulse-slow"
             aria-hidden="true"
           />
-          <span className="text-[var(--text)]">donal</span>
-          <span className="text-[var(--text-dim)]">.ie</span>
+          <span className="text-[var(--text)]">Donal</span>
+          <span className="text-[var(--text-dim)]">/ AI Engineer</span>
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">

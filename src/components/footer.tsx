@@ -11,13 +11,13 @@ const iconLinks = [
 export function Footer() {
   return (
     <footer className="border-t border-[var(--border)] px-6 py-10">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm sm:flex-row">
+      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-sm sm:flex-row">
         <div className="flex items-center gap-2 font-mono text-xs text-[var(--text-dim)]">
           <span
             className="inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)]"
             aria-hidden="true"
           />
-          © {new Date().getFullYear()} Donal O&rsquo;Callaghan · Built in
+          © {new Date().getFullYear()} Donal O Callaghan · Built in
           Ireland
         </div>
 

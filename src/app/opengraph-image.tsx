@@ -15,8 +15,7 @@ export default function OGImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px",
-          background:
-            "linear-gradient(135deg, #0a0a0a 0%, #111111 60%, #1a0e00 100%)",
+          background: "#0a0a0a",
           color: "#ededed",
           fontFamily: "system-ui",
         }}
@@ -35,9 +34,9 @@ export default function OGImage() {
             style={{
               width: 10,
               height: 10,
-              background: "#f59e0b",
+              background: "#34d399",
               borderRadius: 999,
-              boxShadow: "0 0 16px #f59e0b",
+              boxShadow: "0 0 16px #34d399",
             }}
           />
           donalocallaghan.com
@@ -54,18 +53,18 @@ export default function OGImage() {
               display: "flex",
             }}
           >
-            Donal O’Callaghan
+            Donal O Callaghan
           </div>
           <div
             style={{
               fontSize: 40,
               fontWeight: 500,
-              color: "#f59e0b",
+              color: "#a1a1aa",
               letterSpacing: "-0.02em",
               display: "flex",
             }}
           >
-            AI Engineer. Builder. Shipping things that matter.
+            AI Engineer. Builder. Ireland.
           </div>
         </div>
 
@@ -78,13 +77,7 @@ export default function OGImage() {
             fontFamily: "monospace",
           }}
         >
-          <span>TypeScript</span>
-          <span>·</span>
-          <span>Next.js</span>
-          <span>·</span>
-          <span>Claude Code</span>
-          <span>·</span>
-          <span>Agents</span>
+          <span>hello@donalocallaghan.com</span>
         </div>
       </div>
     ),
