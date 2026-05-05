@@ -23,8 +23,8 @@ export const projects: Project[] = [
     accent: "Sound \u2192 Object",
   },
   {
-    title: "Historic Map Viewer"
-      "Ordnance Survey Ireland maps from 1829 to 1943. Slide through 114 years of the island with overlay modes and search.",
+    title: "Historic Map Viewer",
+    description:"Ordnance Survey Ireland maps from 1829 to 1943. Slide through 114 years of the island with overlay modes and search.",
     tech: ["Vite", "MapLibre", "OSi Tiles", "TypeScript"],
     status: "Live",
     link: "https://donal-historic-map-viewer.netlify.app",
