@@ -45,6 +45,17 @@ export const projects: Project[] = [
     accent: "Live Data Art",
     gradient: "linear-gradient(135deg, #064e3b 0%, #065f46 40%, #10b981 100%)",
   },
+  {
+    title: "GreenScore",
+    description:
+      "Rate any Irish address or Eircode 0\u2013100 across walkability, public transport, flood risk, air quality and demographics. Real data, under 5 seconds.",
+    tech: ["TypeScript", "Hono", "NTA GTFS", "OPW", "CSO", "EPA"],
+    status: "Live",
+    link: "https://donal-greenscore.netlify.app",
+    github: "https://github.com/donal0c/greenscore",
+    accent: "Eircode \u2192 Score",
+    gradient: "linear-gradient(135deg, #14532d 0%, #166534 50%, #4ade80 100%)",
+  },
 ];
 
 export const social = {
