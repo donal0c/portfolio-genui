@@ -34,6 +34,17 @@ export const projects: Project[] = [
     accent: "Webcam + Sound",
     gradient: "linear-gradient(135deg, #1e1b4b 0%, #7c3aed 50%, #ec4899 100%)",
   },
+  {
+    title: "Ireland Pulse",
+    description:
+      "A generative ambient art piece. Live data from Reddit, Irish Rail, Met \u00c9ireann and EirGrid woven into a single breathing visual \u2014 the mood of Ireland in real time.",
+    tech: ["React", "Vite", "Canvas", "Irish Rail", "Met \u00c9ireann", "Reddit"],
+    status: "Live",
+    link: "https://ireland-pulse.netlify.app",
+    github: "https://github.com/donal0c/ireland-pulse",
+    accent: "Live Data Art",
+    gradient: "linear-gradient(135deg, #064e3b 0%, #065f46 40%, #10b981 100%)",
+  },
 ];
 
 export const social = {
