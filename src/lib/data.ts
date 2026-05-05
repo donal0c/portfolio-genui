@@ -13,7 +13,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Historic Map Viewer",
+    title: "Sample Alchemist",
+    description:
+      "Record any sound \u2014 a clap, a hum, a tap \u2014 and the browser turns it into a playable 3D instrument. Fragments become physical objects you collide, drag, and perform with. No server, no login.",
+    tech: ["R3F v10", "WebGPU", "Web Audio API", "TypeGPU", "Vite"],
+    status: "Live",
+    link: "https://samplealchemist.vercel.app",
+    gradient: "linear-gradient(135deg, #1c1917 0%, #44403c 50%, #f59e0b 100%)",
+    accent: "Sound \u2192 Object",
+  },
+  {,
     description:
       "Ordnance Survey Ireland maps from 1829 to 1943. Slide through 114 years of the island with overlay modes and search.",
     tech: ["Vite", "MapLibre", "OSi Tiles", "TypeScript"],
