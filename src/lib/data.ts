@@ -22,8 +22,8 @@ export const projects: Project[] = [
     gradient: "linear-gradient(135deg, #1c1917 0%, #44403c 50%, #f59e0b 100%)",
     accent: "Sound \u2192 Object",
   },
-  {,
-    description:
+  {
+    title: "Historic Map Viewer"
       "Ordnance Survey Ireland maps from 1829 to 1943. Slide through 114 years of the island with overlay modes and search.",
     tech: ["Vite", "MapLibre", "OSi Tiles", "TypeScript"],
     status: "Live",
