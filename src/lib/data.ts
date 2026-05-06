@@ -13,7 +13,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Sample Alchemist",
+    title: "Air Beat Board",
+    description:
+      "A browser step sequencer. 5 channels, 16 steps, procedural WebAudio kit, local sample import, per-row controls. Optional webcam hand tracking. No framework, no build step.",
+    tech: ["Web Audio API", "MediaPipe", "JavaScript", "WebRTC"],
+    status: "Live",
+    link: "https://temboclone.vercel.app",
+    github: "https://github.com/donal0c/air-beat-board",
+    accent: "Step Sequencer",
+    gradient: "linear-gradient(135deg, #1c1917 0%, #292524 50%, #f97316 100%)",
+  },
+  {,
     description:
       "Record any sound \u2014 a clap, a hum, a tap \u2014 and the browser turns it into a playable 3D instrument. Fragments become physical objects you collide, drag, and perform with. No server, no login.",
     tech: ["R3F v10", "WebGPU", "Web Audio API", "TypeGPU", "Vite"],
