@@ -25,7 +25,7 @@ export const projects: Project[] = [
   },
   {
     title: "Sample Alchemist",
-    description: a clap, a hum, a tap \u2014 and the browser turns it into a playable 3D instrument. Fragments become physical objects you collide, drag, and perform with. No server, no login.",
+    description: "Record any sound — a clap, a hum, a tap — and the browser turns it into a playable 3D instrument. Fragments become physical objects you collide, drag, and perform with. No server, no login.",
     tech: ["R3F v10", "WebGPU", "Web Audio API", "TypeGPU", "Vite"],
     status: "Live",
     link: "https://samplealchemist.vercel.app",
