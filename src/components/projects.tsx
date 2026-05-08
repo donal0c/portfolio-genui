@@ -41,24 +41,34 @@ export function Projects() {
                 className="group relative flex flex-col overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-card)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)]"
               >
                 {/* Cover */}
-                <div className="relative h-32 w-full overflow-hidden">
+                <div className="relative h-40 w-full overflow-hidden">
                   <div
                     className="absolute inset-0 transition-transform duration-500 group-hover:scale-110"
                     style={{ background: project.gradient }}
                   />
-                  {project.accent && (
-                    <div className="absolute left-3 top-3 rounded-full border border-white/20 bg-black/30 px-2.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-white backdrop-blur-sm">
-                      {project.accent}
+                  {/* Icon */}
+                  {project.icon && (
+                    <div className="absolute right-4 top-1/2 -translate-y-1/2 text-5xl opacity-20 select-none">
+                      {project.icon}
                     </div>
                   )}
+                  {/* Title + accent overlaid */}
+                  <div className="absolute inset-0 flex flex-col justify-end p-4">
+                    {project.accent && (
+                      <span className="mb-1.5 font-mono text-[10px] uppercase tracking-wider text-white/60">
+                        {project.accent}
+                      </span>
+                    )}
+                    <h3 className="text-lg font-semibold leading-tight tracking-tight text-white drop-shadow">
+                      {project.title}
+                    </h3>
+                  </div>
                 </div>
 
                 {/* Content */}
                 <div className="flex flex-1 flex-col p-5">
-                  <h3 className="font-semibold tracking-tight text-[var(--text)] transition-colors group-hover:text-[var(--accent)]">
-                    {project.title}
-                  </h3>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-[var(--text-muted)]">
+                  <div />
+                  <p className="flex-1 text-sm leading-relaxed text-[var(--text-muted)]">
                     {project.description}
                   </p>
                   <div className="mt-3 flex flex-wrap gap-1.5">

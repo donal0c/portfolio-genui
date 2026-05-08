@@ -9,6 +9,7 @@ export interface Project {
   github?: string;
   gradient: string;
   accent?: string;
+  icon?: string;
 }
 
 export const projects: Project[] = [
@@ -21,6 +22,7 @@ export const projects: Project[] = [
     link: "https://sartracker-web.vercel.app",
     github: "https://github.com/donal0c/sartracker-web",
     accent: "Search & Rescue",
+    icon: "🚁",
     gradient: "linear-gradient(135deg, #0c1a2e 0%, #1e3a5f 50%, #3b82f6 100%)",
   },
   {
@@ -32,6 +34,7 @@ export const projects: Project[] = [
     link: "https://temboclone.vercel.app",
     github: "https://github.com/donal0c/air-beat-board",
     accent: "Step Sequencer",
+    icon: "🎛️",
     gradient: "linear-gradient(135deg, #1c1917 0%, #292524 50%, #f97316 100%)",
   },
   {
@@ -42,6 +45,7 @@ export const projects: Project[] = [
     link: "https://historicmapviewer.vercel.app",
     github: "https://github.com/donal0c/historic-map-viewer",
     accent: "1829–1943",
+    icon: "🗺️",
     gradient: "linear-gradient(135deg, #78350f 0%, #b45309 50%, #fde68a 100%)",
   },
   {
@@ -52,6 +56,7 @@ export const projects: Project[] = [
     link: "https://samplealchemist.vercel.app",
     gradient: "linear-gradient(135deg, #1c1917 0%, #44403c 50%, #f59e0b 100%)",
     accent: "Sound → Object",
+    icon: "🎙️",
   },
   {
     title: "Ireland Pulse",
@@ -62,6 +67,7 @@ export const projects: Project[] = [
     link: "https://irelandpulse.vercel.app",
     github: "https://github.com/donal0c/ireland-pulse",
     accent: "Live Data Art",
+    icon: "🌊",
     gradient: "linear-gradient(135deg, #064e3b 0%, #065f46 40%, #10b981 100%)",
   },
   {
@@ -73,6 +79,7 @@ export const projects: Project[] = [
     link: "https://808303.vercel.app",
     github: "https://github.com/donal0c/808-303-acid-lab",
     accent: "Webcam + Sound",
+    icon: "🎹",
     gradient: "linear-gradient(135deg, #1e1b4b 0%, #7c3aed 50%, #ec4899 100%)",
   },
   {
@@ -84,6 +91,7 @@ export const projects: Project[] = [
     link: "https://greenscore-phi.vercel.app",
     github: "https://github.com/donal0c/greenscore",
     accent: "Eircode → Score",
+    icon: "🏡",
     gradient: "linear-gradient(135deg, #14532d 0%, #166534 50%, #4ade80 100%)",
   },
 ];
