@@ -13,6 +13,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "SAR Tracker",
+    description:
+      "Real-time GPS tracking console for mountain rescue operations. Live device positions on a MapLibre map, mission management, search area planning tools, GPX import, and helicopter tracking. Built for use in the field.",
+    tech: ["React", "TypeScript", "MapLibre GL", "Vite", "Tauri", "Turf.js"],
+    status: "Live",
+    link: "https://sartracker-web.vercel.app",
+    github: "https://github.com/donal0c/sartracker-web",
+    accent: "Search & Rescue",
+    gradient: "linear-gradient(135deg, #0c1a2e 0%, #1e3a5f 50%, #3b82f6 100%)",
+  },
+  {
     title: "Air Beat Board",
     description:
       "A browser step sequencer. 5 channels, 16 steps, procedural WebAudio kit, local sample import, per-row controls. Optional webcam hand tracking. No framework, no build step.",
