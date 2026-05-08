@@ -48,7 +48,7 @@ export function Projects() {
                   />
                   {/* Icon */}
                   {project.icon && (
-                    <div className="absolute right-4 top-1/2 -translate-y-1/2 text-5xl opacity-20 select-none">
+                    <div className="absolute right-4 top-1/2 -translate-y-1/2 text-7xl opacity-40 select-none">
                       {project.icon}
                     </div>
                   )}
